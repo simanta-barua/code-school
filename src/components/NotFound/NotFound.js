@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import "./NotFound.css";
 import img404 from "./404.png"
+import { Link } from 'react-router-dom';
 const NotFound = () => {
 
     return (
@@ -11,6 +12,7 @@ const NotFound = () => {
                 <div>
                     <h1 >Oooops!</h1>
                     <p>We have something broken.</p>
+                    <Button variant="danger"><Link to="/home" className="text-light">Back to Home</Link></Button>
                 </div>
             </Container>
         </div>
