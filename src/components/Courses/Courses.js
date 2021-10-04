@@ -1,20 +1,18 @@
-import React, { useEffect, useState } from 'react';
-import { Button, Card, Col, Container, Form, FormControl, Row } from 'react-bootstrap';
+import React, { useContext } from 'react';
+import { userContext } from '../../App';
+import { Container, Row } from 'react-bootstrap';
 import SingleCourse from '../SingleCourse/SingleCourse';
 
 const Courses = () => {
-    const [courses, setCourses] = useState([])
-    useEffect(() => {
-        fetch('./courseDB.json')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-    }, [])
- 
+    const [courses, setCourses] = useContext(userContext);
+
     return (
         <Container>
-         
-            <div className="course-container">
 
+            <div className="course-container">
+                <div className="mt-3 mx-auto">
+                    <h1 >Find the Right Online Course for you</h1>
+                </div>
                 <Row xs={1} md={3} sm={2} className="g-4 m-3">
                     {
                         courses.map(course => <SingleCourse

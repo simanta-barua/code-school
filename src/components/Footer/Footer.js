@@ -4,8 +4,8 @@ import { Col, Container, ListGroup, Row } from 'react-bootstrap';
 const Footer = () => {
     return (
         <div>
-            <Container className="bg-dark text-light text-center" fluid >
-                <Row>
+            <Container className="bg-dark text-light text-center " fluid >
+                <Row >
                     <Col sm={4}>
 
                         <h3 >Explore</h3>
@@ -39,7 +39,7 @@ const Footer = () => {
                         </ListGroup></Col>
 
                 </Row>
-                <div class="row">
+                <div class="row mt-5">
                     
                         <div class="copyright">
                             <p>© 2021 Copyright all Right Reserved Design by Simatna</p>

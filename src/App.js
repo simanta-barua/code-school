@@ -14,10 +14,19 @@ import Blog from "./components/Blog/Blog";
 import Instructor from "./components/Instructor/Instructor";
 import Contact from "./components/Contact/Contact";
 import NotFound from "./components/NotFound/NotFound"
+import { createContext, useEffect, useState } from "react";
+export const userContext = createContext();
 
 function App() {
+  const [courses, setCourses] = useState([])
+  useEffect(() => {
+      fetch('./courseDB.json')
+          .then(res => res.json())
+          .then(data => setCourses(data))
+  }, [])
   return (
     <div>
+      <userContext.Provider value={[courses,setCourses]}>
       <Router>
         <Header></Header>
         <Switch>
@@ -48,6 +57,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
+      </userContext.Provider>
     </div >
   );
 }
