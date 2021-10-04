@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://keen-poitras-80abc9.netlify.app/"><img src="" alt="img" width="200"></a>
+  <a href="https://keen-poitras-80abc9.netlify.app/"><img src="https://keen-poitras-80abc9.netlify.app/static/media/logo.f6d613cb.png" alt="img" width="200"></a>
   <br>
   Code School
   <br>
@@ -16,7 +16,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot]()
+![screenshot](https://i.ibb.co/3m8ZJp8/Screenshot-2021-10-04-at-23-41-26-Code-School.png)
 
 
 ## How To Use
