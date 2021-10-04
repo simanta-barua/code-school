@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import {Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -23,15 +23,7 @@ const Header = () => {
                                 <Nav.Link as={Link} to="/about">About</Nav.Link>
                                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                             </Nav>
-                            <Form className="d-flex">
-                                <FormControl
-                                    type="search"
-                                    placeholder="Search Your Course"
-                                    className="mx-auto"
-                                    aria-label="Search"
-                                />
-                                <Button variant="outline-success">Search</Button>
-                            </Form>
+                            
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
