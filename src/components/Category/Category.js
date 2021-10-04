@@ -20,7 +20,7 @@ const Category = () => {
                     <Row xs={1} md={4} sm={2} className="g-1 ">
                         <Col>
                             <Card style={{ width: '14rem' }}>
-                                <Card.Img variant="top" src={cat1} />
+                                <Card.Img variant="top" src={cat2} />
                                 <Card.Body>
                                     <Card.Title>Computer Science</Card.Title>
                                     <Card.Text>Over 740 Courses</Card.Text>
@@ -51,7 +51,7 @@ const Category = () => {
                             <Card style={{ width: '14rem' }}>
                                 <Card.Img variant="top" src={cat2} />
                                 <Card.Body>
-                                    <Card.Title>Software Development</Card.Title>
+                                    <Card.Title> Development</Card.Title>
                                     <Card.Text>
                                     Over 425 Courses</Card.Text>
                                 </Card.Body>
