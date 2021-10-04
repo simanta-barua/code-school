@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card, Col, ListGroup } from 'react-bootstrap';
+import './SingleCourse.css'
 
 const SingleCourse = (props) => {
     const { title, category,  instructor, picture, price, rating, students } = props.course
@@ -7,7 +8,7 @@ const SingleCourse = (props) => {
     return (
         <div>
             <Col>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '18rem' }} className="custom-cart">
                     <Card.Img variant="top" src={picture} />
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>

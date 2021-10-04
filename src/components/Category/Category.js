@@ -16,16 +16,16 @@ const Category = () => {
                 </div>
                 <div><Row xs={1} md={4} sm={2} className="g-1 mt-2 ">
                     <Col>
-                        <Card style={{ width: '14rem' }}>
+                        <Card style={{ width: '14rem' }} className="custom-cart">
                             <Card.Img variant="top" src={cat1} />
                             <Card.Body>
-                                <Card.Title>Computer Science</Card.Title>
+                                <Card.Title>Computer </Card.Title>
                                 <Card.Text>Over 740 Courses</Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '14rem' }}>
+                        <Card style={{ width: '14rem' }} className="custom-cart">
                             <Card.Img variant="top" src={cat3} />
                             <Card.Body>
                                 <Card.Title>Data Analysis</Card.Title>
@@ -35,7 +35,7 @@ const Category = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '14rem' }}>
+                        <Card style={{ width: '14rem' }} className="custom-cart">
                             <Card.Img variant="top" src={cat4} />
                             <Card.Body>
                                 <Card.Title>Social Sciences</Card.Title>
@@ -45,7 +45,7 @@ const Category = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '14rem' }}>
+                        <Card style={{ width: '14rem' }} className="custom-cart">
                             <Card.Img variant="top" src={cat2} />
                             <Card.Body>
                                 <Card.Title> Development</Card.Title>
