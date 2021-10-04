@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Card, Col, ListGroup } from 'react-bootstrap';
 
 const SingleCourse = (props) => {
-    const { title, category, details, instructor, picture, price, rating, students } = props.course
+    const { title, category,  instructor, picture, price, rating, students } = props.course
 
     return (
         <div>

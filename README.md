@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://keen-poitras-80abc9.netlify.app/"><img src="" alt="NASA" width="200"></a>
+  <a href="https://keen-poitras-80abc9.netlify.app/"><img src="" alt="img" width="200"></a>
   <br>
   Code School
   <br>

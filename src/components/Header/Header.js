@@ -1,15 +1,18 @@
 import React from 'react';
 import {Container, Nav, Navbar } from 'react-bootstrap';
 import { Link ,} from 'react-router-dom';
+import logo from './logo.png'
 
 const Header = () => {
     return (
         <div>
             <div>
 
-                <Navbar bg="dark " variant={"dark"} expand="lg" >
+                <Navbar bg="light " variant={"light"} expand="lg" >
                     <Container>
-                        <Navbar.Brand>CodeSchool</Navbar.Brand>
+                        <Navbar.Brand> <img src={logo} alt="logo">
+                        </img>
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll" >
                             <Nav

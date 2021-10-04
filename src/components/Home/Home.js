@@ -3,7 +3,6 @@ import { Container, Row } from 'react-bootstrap';
 import { userContext } from '../../App';
 import Banner from '../Banner/Banner';
 import Category from '../Category/Category';
-import Courses from '../Courses/Courses';
 import SingleCourse from '../SingleCourse/SingleCourse';
 
 
@@ -20,9 +19,11 @@ const Home = () => {
             <Container>
                 <Category></Category>
                 <div className="my-5">
-                    <div className="text-center text-box">
+                    <div className="text-center text-box ">
                         <h2> Our Latest Course</h2>
-                        <Row xs={1} md={3} sm={2} className="g-3">
+                    </div>
+                    <div>
+                        <Row xs={1} md={3} sm={2} className="g-3 m-3 px-5">
                             {
                                 slicedCourse.map(course => <SingleCourse
                                     key={course.key}
