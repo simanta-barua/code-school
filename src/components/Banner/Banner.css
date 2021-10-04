@@ -1,8 +1,8 @@
-.banner-container{
-    background-image: url(./BannerAssets/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: auto;
-    width: auto;
+.banner-container {
+  background-image: url(./BannerAssets/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
+  width: auto;
 }

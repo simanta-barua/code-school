@@ -1,10 +1,10 @@
-.category-container{
-    background-image: url(./CategoryAssets/cat5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: auto;
+.category-container {
+  background-image: url(./CategoryAssets/cat5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
 }
-Card.Title{
-    color: red;
+Card.Title {
+  color: red;
 }

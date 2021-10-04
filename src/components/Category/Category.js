@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import cat1 from "./CategoryAssets/cat1.png"
 import cat2 from "./CategoryAssets/cat2.png"
 import cat3 from "./CategoryAssets/cat3.png"
