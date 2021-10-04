@@ -18,8 +18,8 @@ const SingleCourse = (props) => {
                         <ListGroup variant="flush">
                             <ListGroup.Item>Category:{category}</ListGroup.Item>
                             <ListGroup.Item>Price: ${price} </ListGroup.Item>
-                            <ListGroup.Item>Rating: ${rating} </ListGroup.Item>
-                            <ListGroup.Item>instructor:{instructor}</ListGroup.Item>
+                            <ListGroup.Item>Rating: {rating} </ListGroup.Item>
+                            <ListGroup.Item>{instructor}</ListGroup.Item>
                         </ListGroup>
                     </Card.Body>
                     <Card.Body className="text-center">
