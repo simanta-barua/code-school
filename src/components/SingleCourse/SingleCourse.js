@@ -3,7 +3,7 @@ import { Button, Card, Col, ListGroup } from 'react-bootstrap';
 import './SingleCourse.css'
 
 const SingleCourse = (props) => {
-    const { title, category,  instructor, picture, price, rating, students } = props.course
+    const { title, category, instructor, picture, price, rating, students } = props.course
 
     return (
         <div>
@@ -16,12 +16,13 @@ const SingleCourse = (props) => {
 
                         </Card.Text>
                         <ListGroup variant="flush">
-                            <ListGroup.Item>{category}</ListGroup.Item>
+                            <ListGroup.Item>Category:{category}</ListGroup.Item>
                             <ListGroup.Item>Price: ${price} </ListGroup.Item>
-                            <ListGroup.Item>{instructor}</ListGroup.Item>
+                            <ListGroup.Item>Rating: ${rating} </ListGroup.Item>
+                            <ListGroup.Item>instructor:{instructor}</ListGroup.Item>
                         </ListGroup>
                     </Card.Body>
-                    <Card.Body>
+                    <Card.Body className="text-center">
                         <Button variant="primary">Details</Button>
                     </Card.Body>
                 </Card>
