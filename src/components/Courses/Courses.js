@@ -4,16 +4,15 @@ import SingleCourse from '../SingleCourse/SingleCourse';
 
 const Courses = () => {
     const [courses, setCourses] = useState([])
-    const[searchText, setSearchText]=useState("")
+    const [searchText, setSearchText] = useState("")
     useEffect(() => {
         fetch('./courseDB.json')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
-    const handleOnChange=(text)=>{
+    
+    const handleOnChange = (text) => {
         setSearchText(text.target.value)
-        console.log(text.target.value);
-        
     }
     return (
         <Container>

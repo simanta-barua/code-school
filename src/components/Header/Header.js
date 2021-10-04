@@ -1,13 +1,13 @@
 import React from 'react';
 import {Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link ,} from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
             <div>
 
-                <Navbar bg="dark" variant={"dark"} expand="lg" >
+                <Navbar bg="dark " variant={"dark"} expand="lg" >
                     <Container>
                         <Navbar.Brand>CodeSchool</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />

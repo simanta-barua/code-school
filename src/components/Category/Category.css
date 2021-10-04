@@ -1,0 +1,7 @@
+.category-container{
+    background-image: url(./CategoryAssets/cat5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+}
