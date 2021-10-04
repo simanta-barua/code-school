@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +32,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+.text-box {
+  margin-top: 2rem;
+  padding: 1.2rem;
+  border-radius: 1.15rem;
+  background: rgba(170, 184, 235, 0.171);
 }

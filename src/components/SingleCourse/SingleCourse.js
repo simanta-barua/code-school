@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, ListGroup } from 'react-bootstrap';
+import { Button, Card, Col, ListGroup } from 'react-bootstrap';
 
 const SingleCourse = (props) => {
     const { title, category, details, instructor, picture, price, rating, students } = props.course
@@ -21,8 +21,7 @@ const SingleCourse = (props) => {
                         </ListGroup>
                     </Card.Body>
                     <Card.Body>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Button variant="primary">Details</Button>
                     </Card.Body>
                 </Card>
             </Col>

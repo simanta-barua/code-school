@@ -1,16 +1,16 @@
-import Button from '@restart/ui/esm/Button';
+
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-
+import news from './news.png'
 const Blog = () => {
     return (
         <div>
             <Container>
-                <Row xs={1} md={3} className="g-4">
+                <Row xs={1} md={3} className="g-4 my-3">
                     {Array.from({ length: 8 }).map((_, idx) => (
                         <Col>
                             <Card>
-                                <Card.Img variant="bottom" src="holder.js/100px160" />
+                                <Card.Img variant="bottom" src={news} />
                                 <Card.Body>
                                     <Card.Title>Least News</Card.Title>
                                     <Card.Text>

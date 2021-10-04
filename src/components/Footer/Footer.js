@@ -1,50 +1,47 @@
 import React from 'react';
 import { Col, Container, ListGroup, Row } from 'react-bootstrap';
-
+import './Footer.css'
 const Footer = () => {
     return (
         <div>
-            <Container className="bg-dark text-light text-center " fluid >
-                <Row >
+            <Container className="bg-dark text-light text-center" fluid >
+                <Row className='p-5' >
                     <Col sm={4}>
-
                         <h3 >Explore</h3>
-                        <ListGroup>
-                            <ListGroup.Item>About Us</ListGroup.Item>
-                            <ListGroup.Item>Success Story</ListGroup.Item>
-                            <ListGroup.Item>Careers</ListGroup.Item>
-                            <ListGroup.Item>Resource Center</ListGroup.Item>
-                            <ListGroup.Item>Courses</ListGroup.Item>
-                            <ListGroup.Item>Contact Us</ListGroup.Item>
-                        </ListGroup>
+                        <ul>
+                            <li variant="dark">About Us</li>
+                            <li variant="dark">Success Story</li>
+                            <li variant="dark">Careers</li>
+                            <li variant="dark">Resource Center</li>
+                            <li variant="dark">Courses</li>
+                            <li variant="dark">Contact Us</li>
+                        </ul>
 
                     </Col>
                     <Col sm={4}><h3 >Categories</h3>
-                        <ListGroup>
-                            <ListGroup.Item>All Courses</ListGroup.Item>
-                            <ListGroup.Item>Storytelling & Voice Over</ListGroup.Item>
-                            <ListGroup.Item>Digital Marketing</ListGroup.Item>
-                            <ListGroup.Item>Design & Branding</ListGroup.Item>
-                            <ListGroup.Item>Nanodegree Plus</ListGroup.Item>
-                            <ListGroup.Item>Veterans</ListGroup.Item>
-                        </ListGroup></Col>
+                        <ul>
+                            <li variant="dark">All Courses</li>
+                            <li variant="dark">Storytelling & Voice Over</li>
+                            <li variant="dark">Digital Marketing</li>
+                            <li variant="dark">Design & Branding</li>
+                            <li variant="dark">Nanodegree Plus</li>
+                            <li variant="dark">Veterans</li>
+                        </ul></Col>
                     <Col sm={4}><h3>Support</h3>
-                        <ListGroup>
-                            <ListGroup.Item>Help Center</ListGroup.Item>
-                            <ListGroup.Item>System Requirements</ListGroup.Item>
-                            <ListGroup.Item>Register Activation Key</ListGroup.Item>
-                            <ListGroup.Item>Site Feedback</ListGroup.Item>
-                            <ListGroup.Item>Documentation</ListGroup.Item>
-                            <ListGroup.Item>Forums</ListGroup.Item>
-                        </ListGroup></Col>
+                        <ul>
+                            <li variant="dark">Help Center</li>
+                            <li variant="dark">System Requirements</li>
+                            <li variant="dark">Register Activation Key</li>
+                            <li variant="dark">Site Feedback</li>
+                            <li variant="dark">Documentation</li>
+                            <li variant="dark">Forums</li>
+                        </ul></Col>
 
                 </Row>
-                <div class="row mt-5">
-                    
-                        <div class="copyright">
-                            <p>© 2021 Copyright all Right Reserved Design by Simatna</p>
-                        </div>
-                  
+                <div class="row  p-5">
+                    <div class="copyright">
+                        <p>© 2021 Copyright all Right Reserved Design by Simatna</p>
+                    </div>
                 </div>
             </Container>
         </div>
