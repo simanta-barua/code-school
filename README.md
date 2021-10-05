@@ -15,8 +15,8 @@
   <a href="#credits">Credits</a> ••
   <a href="#license">License</a>
 </p>
-
-![screenshot](https://i.ibb.co/3m8ZJp8/Screenshot-2021-10-04-at-23-41-26-Code-School.png)
+<h4 align="center">Code School Screenshot desktop view</h4>
+![screenshot](https://i.ibb.co/f179Nhw/Screenshot-2021-10-05-at-23-16-01-Code-School.png)
 
 
 ## How To Use
