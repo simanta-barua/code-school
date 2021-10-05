@@ -6,10 +6,10 @@ const Banner = () => {
     return (
 
         <div>
-            <Container className="banner-container">
+            <Container className="banner-container mt-5">
                 <Row xs={1} md={2} sm={2} className="g-4 mx-3">
                     <Col>
-                        <img src={layer} alt="" className="img-fluid " />
+                        <img src={layer} alt="" className="img-fluid mt-5" />
                     </Col>
                     <Col className="my-auto text-dark">
                         <div >Code School</div>

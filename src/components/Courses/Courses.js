@@ -9,9 +9,10 @@ const Courses = () => {
     return (
         <Container>
 
-            <div className="course-container">
-                <div className="mt-3 mx-auto">
-                    <h1 >Find the Right Online Course for you</h1>
+            <div className="course-container mt-5 p-3">
+                <div className="text-center text-box ">
+                    <h2> Find the Right </h2>
+                    <h1>Online Course for you</h1>
                 </div>
                 <Row xs={1} md={2} sm={2} lg={4} className="g-1 mt-5">
                     {

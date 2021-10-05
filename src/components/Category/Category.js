@@ -11,12 +11,12 @@ const Category = () => {
     return (
         <div className="category-container" >
             <Container>
-                <div className="text-center text-box">
+                <div className="text-center text-box ">
                     <h2> School Popular Subjects</h2>
                     <p className="text-muted">Online education is a flexible instructional <br />delivery system that encompasses any
                         kind of learning that <br />takes place via the Internet.</p>
                 </div>
-                <div><Row xs={1} md={4} sm={2} className="g-1 mt-2 text-center">
+                <div><Row xs={1} md={4} sm={2} className="g-1 mt-2  text-center">
                     <Col>
                         <Card style={{ width: '14rem' }} className="custom-cart-2">
                             <Card.Img variant="top" src={cat1} />

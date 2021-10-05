@@ -5,9 +5,8 @@ import { Button, Col, Container, Form, ListGroup, Row } from 'react-bootstrap';
 const Contact = () => {
     return (
         <Container>
-            <Row className="my-5"
-            >
-                <Col>
+            <Row className="mt-5 p-5" >
+                <Col className="mt-5">
                     <h1>Get in touch</h1>
                     <p>Looking for help? Fill the form and start a new adventure. </p>
                     <ListGroup>
@@ -35,7 +34,7 @@ const Contact = () => {
 
                     </ListGroup>
                 </Col>
-                <Col >
+                <Col className="mt-5" >
                     <Form>
                         <Row className="mb-3">
                             <Form.Group as={Col} controlId="formGridEmail">

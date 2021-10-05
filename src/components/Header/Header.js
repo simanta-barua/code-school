@@ -9,7 +9,7 @@ const Header = () => {
         <div>
             <div>
 
-                <Navbar variant={"light"} expand="lg" className="bg-off-blue"  fixed="top" >
+                <Navbar variant={"light"} expand="lg" className="bg-off-blue  " fixed="top" >
                     <Container>
                         <Navbar.Brand> <Nav.Link as={NavLink} to="/"><img src={logo} alt="logo">
                         </img></Nav.Link>

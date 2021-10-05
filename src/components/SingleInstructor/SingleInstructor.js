@@ -1,10 +1,10 @@
 import React from 'react';
-import {Button, Card, Col, ListGroup } from 'react-bootstrap';
+import { Button, Card, Col, ListGroup } from 'react-bootstrap';
 import { FaRegStar, FaStar } from 'react-icons/fa';
 import Rating from 'react-rating';
 import './SingleInstructor.css'
 const SingleInstructor = (props) => {
-    const {  instructor,  rating, instructor_image } = props.course
+    const { instructor, rating, instructor_image } = props.course
 
     return (
         <div>
@@ -17,12 +17,12 @@ const SingleInstructor = (props) => {
 
                         </Card.Text>
                         <ListGroup variant="flush" >
-                            <ListGroup.Item>Rating: <Rating  className="rating"
-                            readonly
-                            initialRating={rating}
-                             emptySymbol={ <FaRegStar />}
-                             fullSymbol={ <FaStar />}></Rating>
-                             </ListGroup.Item>
+                            <ListGroup.Item>Rating: <Rating className="rating"
+                                readonly
+                                initialRating={rating}
+                                emptySymbol={<FaRegStar />}
+                                fullSymbol={<FaStar />}></Rating>
+                            </ListGroup.Item>
                         </ListGroup>
                     </Card.Body>
                     <Card.Footer className="text-center card-footer">

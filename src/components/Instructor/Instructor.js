@@ -19,13 +19,13 @@ const Instructor = () => {
                         kind of learning that takes place via the Internet.</p>
                 </div>
                 <div>
-                <Row xs={1} md={3} sm={2} className="g-3 m-3 px-5">
-                            {
-                                slicedCourse.map(course => <SingleInstructor
-                                    key={course.key}
-                                    course={course} ></SingleInstructor>)
-                            }
-                        </Row>
+                    <Row xs={1} md={3} sm={2} className="g-3 m-3 px-5">
+                        {
+                            slicedCourse.map(course => <SingleInstructor
+                                key={course.key}
+                                course={course} ></SingleInstructor>)
+                        }
+                    </Row>
                 </div>
             </Container>
         </div>

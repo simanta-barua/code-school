@@ -20,7 +20,7 @@
     "picture": "https://img-c.udemycdn.com/course/480x270/625204_436a_3.jpg",
     "rating": 2.37,
     "instructor": "Gill Webb",
-    "instructor_image": "https://randomuser.me/api/portraits/women/31.jpg",
+    "instructor_image": "https://randomuser.me/api/portraits/women/81.jpg",
     "category": "Development",
     "students": 3623,
     "details": "The ins and outs of HTML5, CSS3, and Modern JavaScript for 2021 Create responsive, accessible, and beautiful layouts"
@@ -195,7 +195,7 @@
     "details": "Learn how to create desktop and Internet GUI Java programs and take your Java programming to the next level"
   },
   {
-    "key": "615ab78e81b82dd5345a9386",
+    "key": "615ab78e81b82dd534d5a9386",
     "index": 0,
     "title": "Javascript for Beginners",
     "price": 25.64,
