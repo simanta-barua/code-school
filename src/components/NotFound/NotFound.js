@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Container } from 'react-bootstrap';
 import "./NotFound.css";
-import img404 from "./404.png"
+import img404 from "./../../assets/images/404.png"
 import { Link } from 'react-router-dom';
 const NotFound = () => {
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Col, Container, ListGroup, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import './Footer.css'
 const Footer = () => {
     return (
         <div>
-            <Container className="bg-light text-dark text-center" fluid >
+            <Container className="bg-off-blue text-dark text-center" fluid >
                 <Row className='p-5' >
                     <Col sm={4}>
                         <h3 >Explore</h3>

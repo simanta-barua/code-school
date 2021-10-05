@@ -1,0 +1,13 @@
+.nav-link{
+    display: block;
+    padding:0 1.5rem !important;
+    font-weight: 600;
+   
+}
+.nav-link:hover{
+    font-size: large;
+
+}
+.bg-off-blue{
+    background-color: rgb(241, 255, 255) !important;
+}

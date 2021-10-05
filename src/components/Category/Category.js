@@ -1,9 +1,9 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import cat1 from "./CategoryAssets/cat1.png"
-import cat2 from "./CategoryAssets/cat2.png"
-import cat3 from "./CategoryAssets/cat3.png"
-import cat4 from "./CategoryAssets/cat4.png"
+import cat1 from "./../../assets/CategoryAssets/cat1.png"
+import cat2 from "./../../assets/CategoryAssets/cat2.png"
+import cat3 from "./../../assets/CategoryAssets/cat3.png"
+import cat4 from "./../../assets/CategoryAssets/cat4.png"
 import './Category.css'
 const Category = () => {
     return (
