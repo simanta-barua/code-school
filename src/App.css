@@ -39,3 +39,10 @@
   border-radius: 1.15rem;
   background: rgba(170, 184, 235, 0.171);
 }
+.btn-user{
+  height: 40px;
+    background: #fe7c54;
+    color: #fff;
+    border-radius: 0;
+    padding: 14px 18px;
+}

@@ -4,10 +4,10 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div>
-            <Container className="bg-off-blue text-dark text-center" fluid >
+            <Container className="bg-off-blue text-dark text-center mt-5" fluid >
                 <Row className='p-5' >
                     <Col sm={4}>
-                        <h3 >Explore</h3>
+                        <h3 className="ms-4" >Explore</h3>
                         <ul>
                             <li variant="dark">About Us</li>
                             <li variant="dark">Success Story</li>
@@ -18,7 +18,7 @@ const Footer = () => {
                         </ul>
 
                     </Col>
-                    <Col sm={4}><h3 >Categories</h3>
+                    <Col sm={4}><h3 className="ms-4">Categories</h3>
                         <ul>
                             <li variant="dark">All Courses</li>
                             <li variant="dark">Storytelling & Voice Over</li>
@@ -27,7 +27,7 @@ const Footer = () => {
                             <li variant="dark">Nanodegree Plus</li>
                             <li variant="dark">Veterans</li>
                         </ul></Col>
-                    <Col sm={4}><h3>Support</h3>
+                    <Col sm={4}><h3 className="ms-4">Support</h3>
                         <ul>
                             <li variant="dark">Help Center</li>
                             <li variant="dark">System Requirements</li>
@@ -39,7 +39,7 @@ const Footer = () => {
 
                 </Row>
                 <div class="row  p-5">
-                    <div class="copyright">
+                    <div class="copyright text-muted pb-5">
                         <p>© 2021 Copyright all Right Reserved Design by Simatna</p>
                     </div>
                 </div>

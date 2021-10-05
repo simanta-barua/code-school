@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import { userContext } from '../../App';
 import Banner from '../Banner/Banner';
 import Category from '../Category/Category';
+import Instructor from '../Instructor/Instructor';
 import SingleCourse from '../SingleCourse/SingleCourse';
 
 
@@ -33,6 +34,7 @@ const Home = () => {
                     </div>
                 </div>
             </Container>
+            <Instructor></Instructor>
         </div>
     );
 };

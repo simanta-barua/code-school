@@ -13,7 +13,7 @@ const Courses = () => {
                 <div className="mt-3 mx-auto">
                     <h1 >Find the Right Online Course for you</h1>
                 </div>
-                <Row xs={1} md={3} sm={2} className="g-4 m-3">
+                <Row xs={1} md={2} sm={2} lg={4} className="g-1 mt-5">
                     {
                         courses.map(course => <SingleCourse
                             key={course.key}

@@ -1,7 +1,8 @@
 import React from 'react';
-import { Button, Card, Col, ListGroup } from 'react-bootstrap';
+import { Badge, Button, Card, Col, ListGroup } from 'react-bootstrap';
+import Rating from 'react-rating';
 import './SingleCourse.css'
-
+import { FaRegStar, FaStar, FaUser } from 'react-icons/fa';
 const SingleCourse = (props) => {
     const { title, category, instructor, picture, price, rating, students } = props.course
 
@@ -15,16 +16,21 @@ const SingleCourse = (props) => {
                         <Card.Text>
 
                         </Card.Text>
-                        <ListGroup variant="flush">
-                            <ListGroup.Item>Category:{category}</ListGroup.Item>
+                        <ListGroup variant="flush" >
+                            <ListGroup.Item> Category: <Badge pill bg="primary">{category}</Badge></ListGroup.Item>
                             <ListGroup.Item>Price: ${price} </ListGroup.Item>
-                            <ListGroup.Item>Rating: {rating} </ListGroup.Item>
-                            <ListGroup.Item>{instructor}</ListGroup.Item>
+                            <ListGroup.Item><FaUser/> <span className="text-muted">{instructor}</span></ListGroup.Item>
+                            <ListGroup.Item>Rating: <Rating  className="rating"
+                            readonly
+                            initialRating={rating}
+                             emptySymbol={ <FaRegStar />}
+                             fullSymbol={ <FaStar />}></Rating>
+                             </ListGroup.Item>
                         </ListGroup>
                     </Card.Body>
-                    <Card.Body className="text-center">
+                    <Card.Footer className="text-center card-footer">
                         <Button variant="primary">Details</Button>
-                    </Card.Body>
+                    </Card.Footer>
                 </Card>
             </Col>
         </div>

@@ -5,8 +5,9 @@
     "title": "Javascript for Beginners",
     "price": 25.64,
     "picture": "https://img-c.udemycdn.com/course/480x270/8324_fa84_13.jpg",
-    "rating": 5.27,
+    "rating": 4.27,
     "instructor": "Stephanie Mcclure",
+    "instructor_image": "https://randomuser.me/api/portraits/women/43.jpg",
     "category": "Development",
     "students": 1912,
     "details": "COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!"
@@ -19,6 +20,7 @@
     "picture": "https://img-c.udemycdn.com/course/480x270/625204_436a_3.jpg",
     "rating": 2.37,
     "instructor": "Gill Webb",
+    "instructor_image": "https://randomuser.me/api/portraits/women/31.jpg",
     "category": "Development",
     "students": 3623,
     "details": "The ins and outs of HTML5, CSS3, and Modern JavaScript for 2021 Create responsive, accessible, and beautiful layouts"
@@ -29,8 +31,9 @@
     "title": "A deep understanding of deep learning ",
     "price": 46.62,
     "picture": "https://img-c.udemycdn.com/course/240x135/4221858_0d53_2.jpg",
-    "rating": 5.06,
+    "rating": 4.06,
     "instructor": "Greta Hoffman",
+    "instructor_image": "https://randomuser.me/api/portraits/men/52.jpg",
     "category": "Development",
     "students": 5130,
     "details": "Learn Python from beginner to advanced. creating your own applications.A deep understanding of deep learning (with Python)"
@@ -41,8 +44,9 @@
     "title": "2021 Complete Python Bootcamp From Zero to Hero in Python",
     "price": 92.69,
     "picture": "https://img-c.udemycdn.com/course/480x270/567828_67d0.jpg",
-    "rating": 5.27,
+    "rating": 4.27,
     "instructor": "Tracey Bray",
+    "instructor_image": "https://randomuser.me/api/portraits/women/52.jpg",
     "category": "Development",
     "students": 7955,
     "details": "Learn Python like a Professional  Start from the basics and go all the way to creating your own applications and games"
@@ -55,6 +59,7 @@
     "picture": "https://img-c.udemycdn.com/course/480x270/11475_9dac_14.jpg",
     "rating": 2.59,
     "instructor": "Lane Floyd",
+    "instructor_image": "https://randomuser.me/api/portraits/men/43.jpg",
     "category": "Development",
     "students": 7859,
     "details": "Complete coverage of HTML, CSS, Javascript while you Earn Four Respected Certifications"
@@ -67,6 +72,7 @@
     "picture": "https://img-c.udemycdn.com/course/480x270/18237_c39e_10.jpg",
     "rating": 7.95,
     "instructor": "Walsh Rodgers",
+    "instructor_image": "https://randomuser.me/api/portraits/men/36.jpg",
     "category": "Development",
     "students": 276,
     "details": "Learn how to create desktop and Internet GUI Java programs and take your Java programming to the next level."
@@ -77,8 +83,9 @@
     "title": "The Complete 2020 Fullstack Web Developer Course",
     "price": 89.43,
     "picture": "https://img-c.udemycdn.com/course/480x270/19332_6b49_15.jpg",
-    "rating": 5.9,
+    "rating": 4.9,
     "instructor": "Lindsay Lindsay",
+    "instructor_image": "https://randomuser.me/api/portraits/men/59.jpg",
     "category": "Development",
     "students": 2279,
     "details": "Learn HTML5, CSS3, JavaScript, Python, Wagtail CMS, PHP & MySQL from scratch!"
@@ -91,7 +98,8 @@
     "picture": "https://img-c.udemycdn.com/course/480x270/30261_3a1f_11.jpg",
     "rating": 1.84,
     "instructor": "Brittney Chambers",
-    "category": "Development",
+    "instructor_image": "https://randomuser.me/api/portraits/men/41.jpg",
+    "category": "JavaScript",
     "students": 9625,
     "details": "kids-coding-introduction-to-html-css-and-javascript"
   },
@@ -101,6 +109,7 @@
     "title": "Learn Web Designing & HTML5/CSS3 Essentials in 4-Hours",
     "price": 75.3,
     "picture": "https://img-c.udemycdn.com/course/480x270/28295_6948_7.jpg",
+    "instructor_image": "https://randomuser.me/api/portraits/men/86.jpg",
     "rating": 3.83,
     "instructor": "Kent Chandler",
     "category": "Development",
@@ -115,7 +124,8 @@
     "picture": "https://img-c.udemycdn.com/course/480x270/24422_c7bf_4.jpg",
     "rating": 4.5,
     "instructor": "Eliza Gomez",
-    "category": "Development",
+    "instructor_image": "https://randomuser.me/api/portraits/men/36.jpg",
+    "category": "Application",
     "students": 2122,
     "details": "Master programming on Windows or Mac OS X with Lazarus & Free Pascal or Delphi"
   },
@@ -127,6 +137,7 @@
     "picture": "https://img-c.udemycdn.com/course/480x270/950390_270f_3.jpg",
     "rating": 1.43,
     "instructor": "Macdonald Strickland",
+    "instructor_image": "https://randomuser.me/api/portraits/men/26.jpg",
     "category": "Development",
     "students": 6052,
     "details": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included"
@@ -137,9 +148,10 @@
     "title": "Learn Web Applications With Java",
     "price": 17.04,
     "picture": "https://img-c.udemycdn.com/course/480x270/23742_3580_8.jpg",
-    "rating": 8.88,
+    "rating": 5.88,
     "instructor": "Page Stuart",
-    "category": "Development",
+    "instructor_image": "https://randomuser.me/api/portraits/men/73.jpg",
+    "category": "Software",
     "students": 5826,
     "details": "Learn how to create dynamic websites using the Java programming language with this java web application tutorial"
   },
@@ -151,6 +163,7 @@
     "picture": "https://img-c.udemycdn.com/course/480x270/22750_d8c2_9.jpg",
     "rating": 2.22,
     "instructor": "Lakisha Simmons",
+    "instructor_image": "https://randomuser.me/api/portraits/men/71.jpg",
     "category": "Development",
     "students": 4832,
     "details": "Take your C++ Programming Training Course Will Take Your Skills To The Next Level."
@@ -163,7 +176,8 @@
     "picture": "https://img-c.udemycdn.com/course/480x270/19332_6b49_15.jpg",
     "rating": 4.6,
     "instructor": "Holden Lane",
-    "category": "Development",
+    "instructor_image": "https://randomuser.me/api/portraits/men/66.jpg",
+    "category": "WEB",
     "students": 1480,
     "details": "Learn HTML5, CSS3, Vanilla JS (ES6+), Python, Wagtail CMS, PHP and MySQL all from scratch Learn Python from beginner to advanced"
   },
@@ -173,10 +187,24 @@
     "title": "Java Swing (GUI) Programming: From Beginner to Expert",
     "price": 64.42,
     "picture": "https://img-c.udemycdn.com/course/480x270/18237_c39e_10.jpg",
-    "rating": 4.75,
+    "rating": 3.75,
     "instructor": "Whitley Morin",
-    "category": "Development",
+    "instructor_image": "https://randomuser.me/api/portraits/men/46.jpg",
+    "category": "Java",
     "students": 5610,
     "details": "Learn how to create desktop and Internet GUI Java programs and take your Java programming to the next level"
+  },
+  {
+    "key": "615ab78e81b82dd5345a9386",
+    "index": 0,
+    "title": "Javascript for Beginners",
+    "price": 25.64,
+    "picture": "https://img-c.udemycdn.com/course/480x270/8324_fa84_13.jpg",
+    "rating": 4.27,
+    "instructor": "Stephanie Mcclure",
+    "instructor_image": "https://randomuser.me/api/portraits/men/56.jpg",
+    "category": "WEB",
+    "students": 1912,
+    "details": "COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!"
   }
 ]
